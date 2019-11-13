@@ -1,0 +1,31 @@
+{
+  "name": "redfacebot",
+  "version": "1.0.0",
+  "description": "This is discord-bot project",
+  "main": "./src/index.js",
+  "scripts": {
+    "server": "json-server --watch -p 3100 ./db.json",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "erenhncr",
+    "eren hançer"
+  ],
+  "author": "Eren Hançer",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0",
+    "json-server": "^0.14.2",
+    "mongoose": "^5.4.20",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.14.2"
+  }
+}
